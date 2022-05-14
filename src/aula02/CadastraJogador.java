@@ -30,22 +30,22 @@ public class CadastraJogador {
         Jogador jogador7 = new Jogador(187, "Alex", "Teles",
                 getDataNascimentoAsDate("10/07/1992"), "Lateral Esquerda", 17,
                 8, 1, 0);
-        Jogador jogador8 = new Jogador(197, "Daniel", "Dani", getDataNascimentoAsDate("20/06/1985"),
+        Jogador jogador8 = new Jogador(197, "Daniel", "Dani",
+                getDataNascimentoAsDate("20/06/1985"),
                 "Lateral Direita", 13, 9, 0, 0);
-        Jogador jogador9 = new Jogador(188, "Fabio", "Fabinho", getDataNascimentoAsDate("20/09/1997"),
+        Jogador jogador9 = new Jogador(188, "Fabio", "Fabinho",
+                getDataNascimentoAsDate("20/09/1997"),
                 "Volante", 25, 8, 0, 0);
-        Jogador jogador10 = new Jogador(153, "Vinicius", "Vini JR", getDataNascimentoAsDate("12/05/2000"),
+        Jogador jogador10 = new Jogador(153, "Vinicius", "Vini JR",
+                getDataNascimentoAsDate("12/05/2000"),
                 "Atacante", 16, 10, 1, 0);
-        Jogador jogador11 = new Jogador(178, "Astolfo", "Astolfinho", getDataNascimentoAsDate("20/11/1997"),
+        Jogador jogador11 = new Jogador(178, "Astolfo", "Astolfinho",
+                getDataNascimentoAsDate("20/11/1997"),
                 "Meia", 28, 8, 3, 0);
 
 
         List<Jogador> jogadores = Arrays.asList(jogador1, jogador2, jogador3, jogador4, jogador5, jogador6, jogador7,
                 jogador8, jogador9, jogador10, jogador11);
-
-//        for(int i = 0; i < jogadores.size(); i++){
-//            System.out.println(jogadores.get(i));
-//        }
 
         jogadores.forEach(jogador -> System.out.println(jogador.toString()));
     }
