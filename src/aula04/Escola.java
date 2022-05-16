@@ -12,6 +12,10 @@ public class Escola {
     private List<Funcionario> funcionarios = new ArrayList<>();
     private List<Professor> professores = new ArrayList<>();
 
+    public Escola(String s, String pcc) {
+
+    }
+
     public void adicionarAluno(Aluno aluno) {
         alunos.add(aluno);
     }
