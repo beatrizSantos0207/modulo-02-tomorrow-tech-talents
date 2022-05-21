@@ -36,5 +36,7 @@ public class ControleEscola {
 
         System.out.println(aluno.calcularMedia());
 
+        System.out.println(aluno);
+
     }
 }
